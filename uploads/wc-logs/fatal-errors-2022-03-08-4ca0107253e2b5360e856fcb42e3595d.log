@@ -1,0 +1,8 @@
+2022-03-08T09:26:09+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function hide_price::{closure}(), 1 passed in /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php on line 309 and exactly 2 expected in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:54
+Stack trace:
+#0 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(309): hide_price->{closure}(NULL)
+#1 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php(797): apply_filters('woocommerce_pro...', '45000', Object(WC_Product_Simple))
+#3 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(289): WC_Data->get_prop('sale_price', 'view')
+#4 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/woocommerce/includes/abstracts/abstrac in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 54
+

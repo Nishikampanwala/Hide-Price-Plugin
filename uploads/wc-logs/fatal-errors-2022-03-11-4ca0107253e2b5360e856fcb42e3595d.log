@@ -1,0 +1,12 @@
+2022-03-11T09:25:17+00:00 CRITICAL Uncaught Error: Function name must be a string in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:113
+Stack trace:
+#0 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/includes/template.php(1743): selectCategory(Array)
+#1 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/includes/template.php(1701): do_settings_fields('my-custom-subme...', 'hp_firstsection')
+#2 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php(149): do_settings_sections('my-custom-subme...')
+#3 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(307): hide_product_details('')
+#4 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#6 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/admin.php(259): do_action('woocommerce_pag...')
+#7 {main}
+  th in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 113
+

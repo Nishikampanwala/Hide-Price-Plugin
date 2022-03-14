@@ -1,0 +1,124 @@
+2022-03-10T06:11:08+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:81
+Stack trace:
+#0 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(307): register_my_custom_submenu_page('')
+#1 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/includes/menu.php(155): do_action('admin_menu', '')
+#4 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/menu.php(394): require_once('/Users/nishi/Lo...')
+#5 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/admin.php(158): require('/Users/nishi/Lo...')
+#6 {main}
+  thrown in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 81
+
+2022-03-10T06:11:10+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:88
+Stack trace:
+#0 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(307): settings('')
+#1 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(false, Array)
+#2 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/admin-ajax.php(45): do_action('admin_init')
+#4 {main}
+  thrown in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 88
+
+2022-03-10T06:13:12+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:81
+Stack trace:
+#0 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(307): register_my_custom_submenu_page('')
+#1 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/includes/menu.php(155): do_action('admin_menu', '')
+#4 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/menu.php(394): require_once('/Users/nishi/Lo...')
+#5 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/admin.php(158): require('/Users/nishi/Lo...')
+#6 {main}
+  thrown in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 81
+
+2022-03-10T06:13:14+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:88
+Stack trace:
+#0 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(307): settings('')
+#1 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(false, Array)
+#2 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/admin-ajax.php(45): do_action('admin_init')
+#4 {main}
+  thrown in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 88
+
+2022-03-10T06:13:38+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:88
+Stack trace:
+#0 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(307): settings('')
+#1 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/admin.php(175): do_action('admin_init')
+#4 {main}
+  thrown in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 88
+
+2022-03-10T06:35:43+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_price(), 0 passed in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 34 and at least 1 expected in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/woocommerce/includes/wc-formatting-functions.php:561
+Stack trace:
+#0 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php(34): wc_price()
+#1 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php(26): regularPriceHTML_for_simple_and_variation_product('<del aria-hidde...', Object(WC_Product_Simple))
+#2 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(307): xa_only_sale_price('<del aria-hidde...', Object(WC_Product_Simple))
+#3 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/plugin.php(189): WP_Hook->apply_filters('<del aria-hidde...', Array)
+#4 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/w in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/woocommerce/includes/wc-formatting-functions.php on line 561
+
+2022-03-10T07:26:04+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php on line 309 and exactly 2 expected in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:27
+Stack trace:
+#0 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(309): {closure}('')
+#1 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/plugin.php(189): WP_Hook->apply_filters('', Array)
+#2 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1835): apply_filters('woocommerce_get...', '<del aria-hidde...', Object(WC_Product_Simple))
+#3 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/woocommerce/templates/loop/price.php(25): WC_Product->get_price_html()
+#4 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Users/nishi/Lo...')
+ in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 27
+
+2022-03-10T07:26:36+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php on line 309 and exactly 2 expected in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:27
+Stack trace:
+#0 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(309): {closure}('')
+#1 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/plugin.php(189): WP_Hook->apply_filters('', Array)
+#2 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1835): apply_filters('woocommerce_get...', '<del aria-hidde...', Object(WC_Product_Simple))
+#3 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/woocommerce/templates/loop/price.php(25): WC_Product->get_price_html()
+#4 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Users/nishi/Lo...')
+ in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 27
+
+2022-03-10T07:39:22+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:78
+Stack trace:
+#0 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(307): register_my_custom_submenu_page('')
+#1 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/includes/menu.php(155): do_action('admin_menu', '')
+#4 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/menu.php(394): require_once('/Users/nishi/Lo...')
+#5 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/admin.php(158): require('/Users/nishi/Lo...')
+#6 {main}
+  thrown in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 78
+
+2022-03-10T07:39:29+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:85
+Stack trace:
+#0 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(307): settings('')
+#1 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(false, Array)
+#2 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/admin-ajax.php(45): do_action('admin_init')
+#4 {main}
+  thrown in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 85
+
+2022-03-10T07:40:16+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:78
+Stack trace:
+#0 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(307): register_my_custom_submenu_page('')
+#1 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/includes/menu.php(155): do_action('admin_menu', '')
+#4 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/menu.php(394): require_once('/Users/nishi/Lo...')
+#5 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/admin.php(158): require('/Users/nishi/Lo...')
+#6 {main}
+  thrown in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 78
+
+2022-03-10T10:24:53+00:00 CRITICAL Uncaught Error: Call to undefined function get_id() in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:42
+Stack trace:
+#0 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(307): woo_hide_price_fun('<del aria-hidde...', Object(WC_Product_Simple))
+#1 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/plugin.php(189): WP_Hook->apply_filters('<del aria-hidde...', Array)
+#2 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1835): apply_filters('woocommerce_get...', '<del aria-hidde...', Object(WC_Product_Simple))
+#3 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/woocommerce/templates/single-product/price.php(25): WC_Product->get_price_html()
+#4 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Users/nishi/Lo...')
+#5 /Users/nishi/Local Sites/resetcode/app/public/wp-content/p in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 42
+
+2022-03-10T12:00:08+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:47
+Stack trace:
+#0 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(307): woo_hide_price_fun('<span class="wo...', '0')
+#1 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/plugin.php(189): WP_Hook->apply_filters('<span class="wo...', Array)
+#2 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1835): apply_filters('woocommerce_get...', '<span class="wo...', Object(WC_Product_Simple))
+#3 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/woocommerce/templates/single-product/price.php(25): WC_Product->get_price_html()
+#4 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Users/nishi/Lo...')
+#5 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/woocom in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 47
+

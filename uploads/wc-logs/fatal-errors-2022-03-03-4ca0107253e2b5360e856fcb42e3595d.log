@@ -1,0 +1,18 @@
+2022-03-03T12:22:26+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::_sale_price() in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:24
+Stack trace:
+#0 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(307): hide_price->{closure}('<del aria-hidde...', Object(WC_Product_Simple))
+#1 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/plugin.php(189): WP_Hook->apply_filters('<del aria-hidde...', Array)
+#2 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1835): apply_filters('woocommerce_get...', '<del aria-hidde...', Object(WC_Product_Simple))
+#3 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/woocommerce/templates/single-product/price.php(25): WC_Product->get_price_html()
+#4 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Users/nishi/Lo...')
+#5 /Users/nishi/Local Sites/resetcod in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 24
+
+2022-03-03T12:26:46+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::_sale_price() in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:24
+Stack trace:
+#0 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(307): hide_price->{closure}('<del aria-hidde...', Object(WC_Product_Simple))
+#1 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/plugin.php(189): WP_Hook->apply_filters('<del aria-hidde...', Array)
+#2 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1835): apply_filters('woocommerce_get...', '<del aria-hidde...', Object(WC_Product_Simple))
+#3 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/woocommerce/templates/single-product/price.php(25): WC_Product->get_price_html()
+#4 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Users/nishi/Lo...')
+#5 /Users/nishi/Local Sites/resetcod in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 24
+

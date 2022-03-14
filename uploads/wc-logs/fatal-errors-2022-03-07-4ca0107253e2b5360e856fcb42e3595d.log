@@ -1,0 +1,58 @@
+2022-03-07T11:35:23+00:00 CRITICAL Cannot redeclare hide_on() (previously declared in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:24) in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 24
+
+2022-03-07T11:35:34+00:00 CRITICAL Cannot redeclare hide_on() (previously declared in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:24) in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 24
+
+2022-03-07T11:36:02+00:00 CRITICAL Cannot redeclare hide_on() (previously declared in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:24) in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 24
+
+2022-03-07T11:37:29+00:00 CRITICAL Cannot redeclare hide_on() (previously declared in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:24) in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 24
+
+2022-03-07T11:37:43+00:00 CRITICAL Cannot redeclare hide_on() (previously declared in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:24) in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 24
+
+2022-03-07T11:38:02+00:00 CRITICAL Cannot redeclare hide_on() (previously declared in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:24) in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 24
+
+2022-03-07T11:38:08+00:00 CRITICAL Cannot redeclare hide_on() (previously declared in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:24) in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 24
+
+2022-03-07T11:38:14+00:00 CRITICAL Cannot redeclare hide_on() (previously declared in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:24) in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 24
+
+2022-03-07T11:40:17+00:00 CRITICAL Cannot redeclare hide_on() (previously declared in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:24) in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 24
+
+2022-03-07T13:45:54+00:00 CRITICAL Cannot redeclare hide_on() (previously declared in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:24) in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 24
+
+2022-03-07T13:47:14+00:00 CRITICAL Cannot redeclare hide_on() (previously declared in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:24) in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 24
+
+2022-03-07T13:53:53+00:00 CRITICAL Cannot redeclare hide_on() (previously declared in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:24) in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 24
+
+2022-03-07T13:53:58+00:00 CRITICAL Cannot redeclare hide_on() (previously declared in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:24) in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 24
+
+2022-03-07T13:54:12+00:00 CRITICAL Cannot redeclare hide_on() (previously declared in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:24) in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 24
+
+2022-03-07T13:54:16+00:00 CRITICAL Cannot redeclare hide_on() (previously declared in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:24) in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 24
+
+2022-03-07T13:55:39+00:00 CRITICAL Cannot redeclare hide_on() (previously declared in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:27) in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 27
+
+2022-03-07T13:56:07+00:00 CRITICAL Cannot redeclare hide_on() (previously declared in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:27) in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 27
+
+2022-03-07T13:56:13+00:00 CRITICAL Cannot redeclare hide_on() (previously declared in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:27) in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 27
+
+2022-03-07T13:57:36+00:00 CRITICAL Cannot redeclare hide_on() (previously declared in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:27) in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 27
+
+2022-03-07T13:57:50+00:00 CRITICAL Cannot redeclare hide_on() (previously declared in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:27) in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 27
+
+2022-03-07T13:58:55+00:00 CRITICAL Cannot redeclare hide_on() (previously declared in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:27) in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 27
+
+2022-03-07T13:59:05+00:00 CRITICAL Cannot redeclare hide_on() (previously declared in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:27) in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 27
+
+2022-03-07T14:03:54+00:00 CRITICAL Cannot redeclare hide_on() (previously declared in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:26) in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 26
+
+2022-03-07T14:04:17+00:00 CRITICAL Cannot redeclare hide_on() (previously declared in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:26) in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 26
+
+2022-03-07T14:04:49+00:00 CRITICAL Cannot redeclare hide_on() (previously declared in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:26) in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 26
+
+2022-03-07T14:18:57+00:00 CRITICAL Cannot redeclare hide_on() (previously declared in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:26) in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 26
+
+2022-03-07T14:19:10+00:00 CRITICAL Cannot redeclare hide_on() (previously declared in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:26) in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 26
+
+2022-03-07T14:21:27+00:00 CRITICAL Cannot redeclare hide_on() (previously declared in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:26) in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 26
+
+2022-03-07T14:21:45+00:00 CRITICAL Cannot redeclare hide_on() (previously declared in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:26) in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 26
+

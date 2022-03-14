@@ -1,0 +1,138 @@
+2022-03-02T10:53:25+00:00 CRITICAL Uncaught Error: Call to undefined function settings_field() in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:42
+Stack trace:
+#0 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(307): hide_price->hide_product_details('')
+#1 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/admin.php(259): do_action('woocommerce_pag...')
+#4 {main}
+  thrown in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 42
+
+2022-03-02T10:56:54+00:00 CRITICAL Uncaught Error: Call to undefined function settings_field() in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:42
+Stack trace:
+#0 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(307): hide_price->hide_product_details('')
+#1 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/admin.php(259): do_action('woocommerce_pag...')
+#4 {main}
+  thrown in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 42
+
+2022-03-02T11:11:14+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in /Users/nishi/Local Sites/resetcode/app/public/wp-includes/pluggable.php:876
+Stack trace:
+#0 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/pluggable.php(876): explode('|', 'reset_code|1646...')
+#1 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/user.php(3219): wp_parse_auth_cookie('reset_code|1646...', 'logged_in')
+#2 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/pluggable.php(2264): wp_get_session_token()
+#3 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/functions.php(1860): wp_create_nonce('hidepriceplugin...')
+#4 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/includes/plugin.php(2257): wp_nonce_field('hidepriceplugin...')
+#5 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php(67): settings_fields('hidepriceplugin')
+#6 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/includes/template.php(1743): hide_price->hide_product_details( in /Users/nishi/Local Sites/resetcode/app/public/wp-includes/pluggable.php on line 876
+
+2022-03-02T11:11:44+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in /Users/nishi/Local Sites/resetcode/app/public/wp-includes/pluggable.php:876
+Stack trace:
+#0 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/pluggable.php(876): explode('|', 'reset_code|1646...')
+#1 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/user.php(3219): wp_parse_auth_cookie('reset_code|1646...', 'logged_in')
+#2 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/pluggable.php(2264): wp_get_session_token()
+#3 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/functions.php(1860): wp_create_nonce('hidepriceplugin...')
+#4 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/includes/plugin.php(2257): wp_nonce_field('hidepriceplugin...')
+#5 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php(67): settings_fields('hidepriceplugin')
+#6 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/includes/template.php(1743): hide_price->hide_product_details( in /Users/nishi/Local Sites/resetcode/app/public/wp-includes/pluggable.php on line 876
+
+2022-03-02T11:11:49+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in /Users/nishi/Local Sites/resetcode/app/public/wp-includes/pluggable.php:876
+Stack trace:
+#0 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/pluggable.php(876): explode('|', 'reset_code|1646...')
+#1 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/user.php(3219): wp_parse_auth_cookie('reset_code|1646...', 'logged_in')
+#2 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/pluggable.php(2264): wp_get_session_token()
+#3 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/functions.php(1860): wp_create_nonce('hidepriceplugin...')
+#4 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/includes/plugin.php(2257): wp_nonce_field('hidepriceplugin...')
+#5 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php(67): settings_fields('hidepriceplugin')
+#6 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/includes/template.php(1743): hide_price->hide_product_details( in /Users/nishi/Local Sites/resetcode/app/public/wp-includes/pluggable.php on line 876
+
+2022-03-02T11:12:33+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in /Users/nishi/Local Sites/resetcode/app/public/wp-includes/pluggable.php:876
+Stack trace:
+#0 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/pluggable.php(876): explode('|', 'reset_code|1646...')
+#1 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/user.php(3219): wp_parse_auth_cookie('reset_code|1646...', 'logged_in')
+#2 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/pluggable.php(2264): wp_get_session_token()
+#3 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/functions.php(1860): wp_create_nonce('hidepriceplugin...')
+#4 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/includes/plugin.php(2257): wp_nonce_field('hidepriceplugin...')
+#5 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php(67): settings_fields('hidepriceplugin')
+#6 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/includes/template.php(1743): hide_price->hide_product_details( in /Users/nishi/Local Sites/resetcode/app/public/wp-includes/pluggable.php on line 876
+
+2022-03-02T11:14:32+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in /Users/nishi/Local Sites/resetcode/app/public/wp-includes/pluggable.php:876
+Stack trace:
+#0 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/pluggable.php(876): explode('|', 'reset_code|1646...')
+#1 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/user.php(3219): wp_parse_auth_cookie('reset_code|1646...', 'logged_in')
+#2 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/pluggable.php(2264): wp_get_session_token()
+#3 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/functions.php(1860): wp_create_nonce('hidepriceplugin...')
+#4 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/includes/plugin.php(2257): wp_nonce_field('hidepriceplugin...')
+#5 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php(67): settings_fields('hidepriceplugin')
+#6 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/includes/template.php(1743): hide_price->hide_product_details( in /Users/nishi/Local Sites/resetcode/app/public/wp-includes/pluggable.php on line 876
+
+2022-03-02T11:15:37+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in /Users/nishi/Local Sites/resetcode/app/public/wp-includes/pluggable.php:876
+Stack trace:
+#0 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/pluggable.php(876): explode('|', 'reset_code|1646...')
+#1 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/user.php(3219): wp_parse_auth_cookie('reset_code|1646...', 'logged_in')
+#2 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/pluggable.php(2264): wp_get_session_token()
+#3 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/functions.php(1860): wp_create_nonce('hidepriceplugin...')
+#4 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/includes/plugin.php(2257): wp_nonce_field('hidepriceplugin...')
+#5 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php(67): settings_fields('hidepriceplugin')
+#6 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/includes/template.php(1743): hide_price->hide_product_details( in /Users/nishi/Local Sites/resetcode/app/public/wp-includes/pluggable.php on line 876
+
+2022-03-02T11:18:43+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in /Users/nishi/Local Sites/resetcode/app/public/wp-includes/pluggable.php:876
+Stack trace:
+#0 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/pluggable.php(876): explode('|', 'reset_code|1646...')
+#1 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/user.php(3219): wp_parse_auth_cookie('reset_code|1646...', 'logged_in')
+#2 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/pluggable.php(2264): wp_get_session_token()
+#3 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/functions.php(1860): wp_create_nonce('hidepriceplugin...')
+#4 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/includes/plugin.php(2257): wp_nonce_field('hidepriceplugin...')
+#5 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php(67): settings_fields('hidepriceplugin')
+#6 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/includes/template.php(1743): hide_price->hide_product_details( in /Users/nishi/Local Sites/resetcode/app/public/wp-includes/pluggable.php on line 876
+
+2022-03-02T11:19:54+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in /Users/nishi/Local Sites/resetcode/app/public/wp-includes/pluggable.php:876
+Stack trace:
+#0 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/pluggable.php(876): explode('|', 'reset_code|1646...')
+#1 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/user.php(3219): wp_parse_auth_cookie('reset_code|1646...', 'logged_in')
+#2 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/pluggable.php(2264): wp_get_session_token()
+#3 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/functions.php(1860): wp_create_nonce('hidepriceplugin...')
+#4 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/includes/plugin.php(2257): wp_nonce_field('hidepriceplugin...')
+#5 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php(67): settings_fields('hidepriceplugin')
+#6 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/includes/template.php(1743): hide_price->hide_product_details( in /Users/nishi/Local Sites/resetcode/app/public/wp-includes/pluggable.php on line 876
+
+2022-03-02T11:31:31+00:00 CRITICAL Uncaught Error: Call to undefined function getRadioVaal() in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:43
+Stack trace:
+#0 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/includes/template.php(1743): hide_price->hidePriceOn(Array)
+#1 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/includes/template.php(1701): do_settings_fields('my-custom-subme...', 'hp_firstsection')
+#2 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php(67): do_settings_sections('my-custom-subme...')
+#3 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(307): hide_price->hide_product_details('')
+#4 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#6 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/admin.php(259): do_action('wooco in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 43
+
+2022-03-02T11:42:11+00:00 CRITICAL Uncaught Error: Call to undefined function get_ID() in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:51
+Stack trace:
+#0 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/includes/template.php(1743): hide_price->hidePriceOn(Array)
+#1 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/includes/template.php(1701): do_settings_fields('my-custom-subme...', 'hp_firstsection')
+#2 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php(81): do_settings_sections('my-custom-subme...')
+#3 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(307): hide_price->hide_product_details('')
+#4 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#6 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/admin.php(259): do_action('woocommerce in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 51
+
+2022-03-02T13:18:15+00:00 CRITICAL Uncaught Error: Call to undefined function wp_dropdown_product_categories() in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:76
+Stack trace:
+#0 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/includes/template.php(1743): hide_price->selectCategory(Array)
+#1 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/includes/template.php(1701): do_settings_fields('my-custom-subme...', 'hp_firstsection')
+#2 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php(87): do_settings_sections('my-custom-subme...')
+#3 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(307): hide_price->hide_product_details('')
+#4 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#6 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/admin.php(2 in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 76
+
+2022-03-02T13:43:23+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_categories() in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php:82
+Stack trace:
+#0 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/includes/template.php(1743): hide_price->selectCategory(Array)
+#1 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/includes/template.php(1701): do_settings_fields('my-custom-subme...', 'hp_firstsection')
+#2 /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php(93): do_settings_sections('my-custom-subme...')
+#3 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(307): hide_price->hide_product_details('')
+#4 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 /Users/nishi/Local Sites/resetcode/app/public/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#6 /Users/nishi/Local Sites/resetcode/app/public/wp-admin/admin.php(259): do_actio in /Users/nishi/Local Sites/resetcode/app/public/wp-content/plugins/hide-price-plugin/hide-price.php on line 82
+
