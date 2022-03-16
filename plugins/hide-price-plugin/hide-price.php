@@ -42,18 +42,18 @@ function woo_hide_price_fun($price, $product){
       return $price;
     }  
      //Hide Price on product with Category displayed. Dropdown. 
-     elseif(get_option('hide-on-category') > 0)
-    {                
+     elseif(get_option('hide-on-category'))
+    {     
       $hideCategories = array(get_option('hide-on-category'));
       $productcategories = get_the_terms($product_cat->get_id(), 'product_cat' , $hideCategories);
       return '';      
-    }
-    return $price;
+      }
+      return $price;
   }
 return $price;
-}
+}         
                           
-function register_my_custom_submenu_page() {
+  function register_my_custom_submenu_page() {
       add_submenu_page( 'woocommerce', 'Hide Price', 'Hide Price', 'manage_options', 'my-custom-submenu-page','hide_product_details' );   
 }
     function settings(){
@@ -95,26 +95,26 @@ function register_my_custom_submenu_page() {
       <input type="text" name="id_text_area" id="id_text_area" value="<?php echo get_option('id_text_area'); ?>"> 
     <?php }
     
-function selectCategory(){ ?>
+  function selectCategory(){ ?>      
         
          
         <select id="hide-on-category" name="hide-on-category[]" style="width:330px; height: 120px;" multiple> 
 	              <option id="" value="">No Category</option>
-                <?php
-          $catdata = array();    
-          $args = array( 'type' => 'product', 'taxonomy' => 'product_cat' ); 
-          $categories = get_categories( $args );
-          $selected = get_option( 'hide-on-category' ) ?: array('');	
-          $hpc = 0;
-          foreach ($categories as $cat) {  ?>
+        <?php
+                $catdata = array();    
+                $args = array( 'type' => 'product', 'taxonomy' => 'product_cat' ); 
+                $categories = get_categories( $args );
+                $selected = get_option( 'hide-on-category' ) ?: array('');	
+                $hpc = 0;
+            foreach ($categories as $cat) {  ?>        
         
             <option id="<?php echo $cat->term_id ; ?>" <?php if(($selected) > 0){ foreach ($selected as $selectedcat) {				
-   			    if ($selectedcat ==  $cat->name) { 
+   			          if ($selectedcat ==  $cat->name) { 
 				      echo 'selected'; }} ?>>
-            <?php echo $cat->name; ?></option>
-            <?php $hpc++; } }  ?>
+                  <?php echo $cat->name; ?></option>
+                  <?php $hpc++; } }  ?>
       </select>
-            <?php echo get_option('hide-on-category'); ?>
+                  <?php echo get_option('hide-on-category'); ?> 
           
       <br>
      <?php }
