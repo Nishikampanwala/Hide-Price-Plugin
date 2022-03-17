@@ -13,11 +13,19 @@
 
  
 
-     
+register_activation_hook(__FILE__, 'some_woocommerce_addon_activate');
 add_action('admin_menu',  'register_my_custom_submenu_page');
 add_action('admin_init', 'settings');  
     
 add_filter( 'woocommerce_get_price_html', 'woo_hide_price_fun' , 10, 2);
+
+function some_woocommerce_addon_activate() {
+  
+  if( !class_exists( 'WooCommerce' ) ) {
+      deactivate_plugins( plugin_basename( __FILE__ ) );
+      wp_die( __( 'Please install and Activate WooCommerce.', 'woocommerce-addon-slug' ), 'Plugin dependency check', array( 'back_link' => true ) );
+  }
+}
 
 function woo_hide_price_fun($price, $product){
   if((is_product()) AND get_option('enablePluginSiteWide') == 1){   
