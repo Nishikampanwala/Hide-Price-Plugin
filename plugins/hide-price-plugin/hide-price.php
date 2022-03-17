@@ -41,14 +41,26 @@ function woo_hide_price_fun($price, $product){
 	        }
       return $price;
     }  
-     //Hide Price on product with Category displayed. Dropdown. 
-     elseif(get_option('hide-on-category'))
-    {     
-      $hideCategories = array(get_option('hide-on-category'));
-      $productcategories = get_the_terms($product_cat->get_id(), 'product_cat' , $hideCategories);
-      return '';      
-      }
+    elseif(get_option('hide--price-on') == 3)
+    {         
+     
+      $hideCategories = get_option('hide-on-category');    
+      $productcategories = get_the_terms($product->get_id(), 'product_cat' , $hideCategories);
+      //loop through current product categories
+      foreach($productcategories as $pcat){
+
+        //loop through settings product categories
+        foreach($hideCategories as $hcat){
+
+            //if current product cat == listed in settings
+            if($pcat->name == $hcat){ return get_option('replacementText'); }
+        }
+        
+      }  
+ 
+    }else{
       return $price;
+    } 
   }
 return $price;
 }         
@@ -89,35 +101,37 @@ return $price;
       <label for="Product-With-Sale">Hide On Product with Sale</label><br>
       <input type="radio" id="product-with-id" name="hide--price-on" value="2" onClick="EnableDisableTB();" <?php if (get_option('hide--price-on') == '2'){ echo 'checked'; }  ?>>
       <label for="Product-With-Id">Hide On Products IDs below</label><br>
+      <input type="radio" id="product-with-id" name="hide--price-on" value="3" onClick="EnableDisableTB();" <?php if (get_option('hide--price-on') == '3'){ echo 'checked'; }  ?>>
+      <label for="Product-With-Id">Hide On Categories below</label><br>
  <?php   }
   
  function hidebyMentionId(){ ?>
       <input type="text" name="id_text_area" id="id_text_area" value="<?php echo get_option('id_text_area'); ?>"> 
     <?php }
     
-  function selectCategory(){ ?>      
+    function selectCategory(){ ?>      
         
          
-        <select id="hide-on-category" name="hide-on-category[]" style="width:330px; height: 120px;" multiple> 
-	              <option id="" value="">No Category</option>
-        <?php
-                $catdata = array();    
-                $args = array( 'type' => 'product', 'taxonomy' => 'product_cat' ); 
-                $categories = get_categories( $args );
-                $selected = get_option( 'hide-on-category' ) ?: array('');	
-                $hpc = 0;
-            foreach ($categories as $cat) {  ?>        
+      <select id="hide-on-category" name="hide-on-category[]" style="width:330px; height: 120px;" multiple> 
+              <option id="" value="">No Category</option>
+      <?php
+              $catdata = array();    
+              $args = array( 'type' => 'product', 'taxonomy' => 'product_cat' ); 
+              $categories = get_categories( $args );
+              $selected = get_option( 'hide-on-category' ) ?: array('');	
+              $hpc = 0;
+          foreach ($categories as $cat) {  ?>        
+      
+          <option id="<?php echo $cat->term_id ; ?>" <?php if(($selected) > 0){ foreach ($selected as $selectedcat) {				
+                 if ($selectedcat ==  $cat->name) { 
+            echo 'selected'; }} ?>>
+                <?php echo $cat->name; ?></option>
+                <?php $hpc++; } }  ?>
+    </select>
+                <?php echo count(get_option('hide-on-category')); ?> 
         
-            <option id="<?php echo $cat->term_id ; ?>" <?php if(($selected) > 0){ foreach ($selected as $selectedcat) {				
-   			          if ($selectedcat ==  $cat->name) { 
-				      echo 'selected'; }} ?>>
-                  <?php echo $cat->name; ?></option>
-                  <?php $hpc++; } }  ?>
-      </select>
-                  <?php echo get_option('hide-on-category'); ?> 
-          
-      <br>
-     <?php }
+    <br>
+   <?php }
 
 function replacementFieldHTML(){ ?>
   <textarea name="replacementText" id="replacementText" ><?php echo esc_attr(get_option('replacementText', '$price'))?></textarea>
